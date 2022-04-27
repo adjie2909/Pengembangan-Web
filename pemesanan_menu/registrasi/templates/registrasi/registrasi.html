@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEMESANAN MENU RUMAH MAKAN</title>
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+        <!--Navbar section-->
+        <section class="navbar">
+            <div class="container text-center">
+                <h1>Masukkan Nama dan Nomor Meja Anda</h1>
+                </div>
+            </section>
+            <!--end navbar section-->
+
+        <!--registration section-->
+        <section class ='registrasi'>
+            <div class='container text-center'>
+            <h1>Registrasi</h1>
+        <div class="text-center">
+            <form>
+            <p>Nama Pelanggan :</p>
+            <input type = "text" placeholder="Masukkan Nama" name="Nama_Customer" required/>
+            <p>Nomor Meja     :</p>
+            <input type = "number" placeholder="Masukkan Nomor Meja" name="Nomor_Meja" required/>
+            <ul class="text-center">
+                <button type="submit" value="/order/"></a>Masuk</button>
+            </ul>
+            </form>
+        </div>
+        </section>
+        <!--end registration section-->
+</body>
+</html>
